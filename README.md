@@ -17,7 +17,7 @@ The other 3 states are technically the same, however they are named as such to m
 
 ## Uses
 
-The beauty of this architecture is that because I ran all my MQTT systems through a server [(a different project run on a Raspberry Pi, which is designed to be similar to Tony Stark's Jarvis AI)](), I could simply paste this code onto a new ESP32 I bought to control a different area of LEDs. Once the ESP has a unique device name, the hostname of the server, and the port of the server, the server would be able to message it commands immediately and the ESP would be able to act on those commands after the action functions are filled in with your custom code. All you need for the server's MQTT code is a way of sending the commands to the specific device.*
+The beauty of this architecture is that because I ran all my MQTT systems through a server [(a different project run on a Raspberry Pi, which is designed to be similar to Tony Stark's Jarvis AI)](https://github.com/Zeb152/AlfredAI-Public), I could simply paste this code onto a new ESP32 I bought to control a different area of LEDs. Once the ESP has a unique device name, the hostname of the server, and the port of the server, the server would be able to message it commands immediately and the ESP would be able to act on those commands after the action functions are filled in with your custom code. All you need for the server's MQTT code is a way of sending the commands to the specific device.*
 
 *_This is true. However, the MQTT server I personally run is more complex as it is integrated with AI and a database so it's not exactly how my own server works._
 
