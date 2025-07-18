@@ -2,6 +2,8 @@
 
 This is a simple ESP32 program that is purposely built with modularity. It is meant to be a "copy and paste" style of script. Essentially, if you paste this code into a PlatformIO project (or Arduino IDE), all you will need to do is program in your custom actions in the empty/example functions given. You can choose what action that might be: turning on LEDs, moving a motor, etc.
 
+It is built in PlatformIO. I haven't tested the code in the Arduino IDE but I am pretty confident it would work there as well. To try it in the Arduino IDE, go to the SRC folder in the project and simply copy the C++ code into the IDE.
+
 ## Architecture
 
 The device is run with what are called states. There are four default states in the code (however, more custom states can be added with ease):
